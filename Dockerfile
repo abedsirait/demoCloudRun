@@ -7,4 +7,4 @@ COPY . .
 ENV MODEL_URL="https://storage.googleapis.com/demo-model-ml/model.json"
 
 EXPOSE 3000
-CMD [ "npm" "start" ]
+CMD [ "npm", "start" ]
